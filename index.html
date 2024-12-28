@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="output">
+        <input type="text" id="inp" />
+      </div>
+      <div class="btn">
+        <div class="container">
+          <button class="box" onclick="delInp()">CE</button>
+          <button class="box" onclick="delLast()">C</button>
+          <button class="box" onclick="clickBtn(',')">,</button>
+          <button class="box" onclick="clickBtn('/')">/</button>
+        </div>
+        <div class="container">
+          <button class="box" onclick="clickBtn(7)">7</button>
+          <button class="box" onclick="clickBtn(8)">8</button>
+          <button class="box" onclick="clickBtn(9)">9</button>
+          <button class="box" onclick="clickBtn('*')">x</button>
+        </div>
+        <div class="container">
+          <button class="box" onclick="clickBtn(4)">4</button>
+          <button class="box" onclick="clickBtn(5)">5</button>
+          <button class="box" onclick="clickBtn(6)">6</button>
+          <button class="box" onclick="clickBtn('+')">+</button>
+        </div>
+        <div class="container">
+          <button class="box" onclick="clickBtn(1)">1</button>
+          <button class="box" onclick="clickBtn(2)">2</button>
+          <button class="box" onclick="clickBtn(3)">3</button>
+          <button class="box" onclick="clickBtn('-')">-</button>
+        </div>
+        <div class="container">
+          <button class="box special" onclick="clickBtn(0)">0</button>
+          <button class="box" onclick="clickBtn('.')">.</button>
+          <button class="box" onclick="outputValue()">=</button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="app.js"></script>
+</html>
